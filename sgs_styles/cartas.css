@@ -1,0 +1,56 @@
+body{
+	background-color: turquoise;
+}
+
+img{
+	border: 3px solid black;
+	border-radius: 20px;
+	width: 200px;
+	box-shadow: 0px 0px 15px;
+}
+
+
+div{
+	position: absolute;
+	background-image: cover;
+
+}
+
+.trespicas{
+	left: 450px;
+	top: 230px;
+	transform: rotate(140deg);
+	z-index: 1;
+
+}
+
+.cincotreboles{
+	left: 500px;
+	top: 200px;
+	transform: rotate(160deg);
+	z-index: 2;
+}
+
+.aspicas{
+	left: 550px;
+	top: 200px;
+		z-index: 3;
+
+}
+
+.astreboles{
+	left: 600px;
+	top: 200px;
+	transform: rotate(20deg);
+		z-index: 4;
+
+}
+
+.reydiamantes{
+	left: 650px;
+	top: 220px;
+	transform: rotate(40deg);
+		z-index: 5;
+
+}
+
